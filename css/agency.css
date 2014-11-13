@@ -297,7 +297,7 @@ header {
     text-align: left;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/bull2.jpg);
+    background-image: url(../img/bull2.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -744,7 +744,7 @@ body {
 }
 
 .black-text {
-    color:black;
+    color:#122660;
 }
 
 .small-text {
@@ -777,4 +777,8 @@ body {
     border: 7px solid #122660;
     margin-bottom: 9px
 
+}
+
+.mydropdown {
+ color: black;
 }
