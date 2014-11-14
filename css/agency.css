@@ -86,7 +86,7 @@ h1 {
 }
 
 .bg-light-gray {
-    background-color: #F1F1F1
+    background-color: #F1F1F1;
 }
 
 .btn-primary {
@@ -607,12 +607,12 @@ ul.social-buttons li a:active {
 }
 /*background color of modal*/
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 50px 0;
     border: 0;
     border-radius: 0;
     text-align: center;
    /* background-clip: border-box;*/
-    background-color: #122660;
+    background-color: #F1F1F1;
     margin-top: 70px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -781,4 +781,27 @@ body {
 
 .mydropdown {
  color: black;
+}
+
+.dropdown .open {
+    background: black;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #122660;
+    color: #1ba6f7;
+    border-radius: 3px;
+}
+
+.navbar-default .nav li a {
+    color: white;
+}
+
+#blue {
+    color:#122660;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
