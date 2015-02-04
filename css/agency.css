@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "yaledesign",Helvetica,Arial,sans-serif;
+    font-family: Times,Times,Arial,sans-serif;
 }
 
 .text-muted {
@@ -22,6 +22,7 @@ p {
     line-height: 1.75;
     color:#122660;
     font-weight:20;
+    letter-spacing: 1px;
 }
 
 p.large {
@@ -54,16 +55,16 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "yaledesign", Helvetica,Arial,sans-serif;
+    font-family: Times, Times,Arial,sans-serif;
     font-weight: 700;
     color: #122660;
 }
 
 h2 {
-    text-shadow: -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
+    text-shadow: -1px -1px 0 #122660,
+    1px -1px 0 #122660,
+    -1px 1px 0 #122660,
+    1px 1px 0 #122660; 
 }
 h1 {
     font-size: 40px;
@@ -81,6 +82,11 @@ h1 {
     background-color: #cdeef7;
 }
 
+.blue {
+    color: #1ba6f7;
+}
+
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -92,9 +98,9 @@ h1 {
 .btn-primary {
     border-color: black;
     text-transform: uppercase;
-    font-family: Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-family: Times, Times,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
     color: #fff;
     background-color: #122660;
 }
@@ -144,7 +150,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: black;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Times, Montserrat, Times,Times,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -194,10 +200,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+
 }
 
 .navbar-default .navbar-brand {
-    font-family: Helvetica,Arial,cursive;
+    font-family: Times,Arial,cursive;
     color: #122660;
 }
 
@@ -229,9 +236,9 @@ fieldset[disabled] .btn-xl.active {
 /*color of font in navbar*/
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "yaledesign",Helvetica,Arial,sans-serif;
+    font-family: Times,Times,Arial,sans-serif;
     font-weight: 400;
-    font-size:18px;
+    font-size:14px;
     letter-spacing: 1px;
     color: white;
 }
@@ -261,15 +268,15 @@ fieldset[disabled] .btn-xl.active {
         margin-right: -140px;
         border: 0;
         background-color: #122660;
-        -webkit-transition: padding .3s;
+       /* -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
-        transition: padding .3s;
+        transition: padding .3s;*/
     }
 
     .navbar-default {
-        -webkit-transition: all .2s;
+      /*  -webkit-transition: all .2s;
         -moz-transition: all .2s;
-        transition: all .2s;
+        transition: all .2s;*/
     }
 
 .navbar-brand {
@@ -297,7 +304,7 @@ header {
     text-align: left;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/bull2.png);
+    background-image: url(../img/bull2.jpeg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -313,7 +320,7 @@ header .intro-text {
 
 header .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif", Times,Times,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -326,11 +333,11 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
    /* background-color:blue;*/
   /*  opacity:0.5;*/
-    font-family: "yaledesign",Helvetica,Arial,sans-serif;
+    font-family: Times,Times,Arial,sans-serif;
     font-size: 40px;
     /*font-weight: 300;*/
     line-height: 50px;
-    text-shadow: -2px -2px 0 #000,
+    text-shadow: -2px -2px 0 #122660,
     2px -2px 0 #000,
     -2px 2px 0 #000,
     2px 2px 0 #000;
@@ -345,7 +352,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif", Times,Times,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -354,7 +361,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: "yaledesign", Helvetica,Arial,sans-serif;
+        font-family: Times, Times,Arial,sans-serif;
         font-size: 50px;
         font-weight: 0;
         letter-spacing: 5px;
@@ -376,7 +383,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif", Times,Times,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -455,7 +462,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Times,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -472,6 +479,15 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    opacity:1;
+    transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+
+}
+
+.team-member img:hover {
+    opacity:0.5;
 }
 
 .team-member h4 {
@@ -523,28 +539,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Times,Times,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Times,Times,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Times,Times,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Times,Times,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -561,7 +577,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Times,Arial,sans-serif;
     line-height: 40px;
     font-size: 12px;
 }
@@ -570,7 +586,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, Times,Times,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -629,7 +645,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Times,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -700,10 +716,6 @@ body {
     webkit-tap-highlight-color: #122660;
 }
 
-.panel {
-    border: 1px solid black;
-}
-
 .about-text {
     padding-top: 7px;
 }
@@ -728,7 +740,8 @@ body {
 }
 
 .wsstext {
-    margin-top: -30px;
+    margin-top: 30px;
+    margin-bottom:-20px;
 }
 
 .logo {
@@ -766,7 +779,7 @@ body {
 }
 
 .spacer {
-    margin: 400px;
+    margin: 28%;
 }
 
 .titletext {
@@ -805,3 +818,100 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.down-arrow {
+    text-align:center;
+}
+
+#down-arrow {
+    color:white;
+}
+#down-arrow:hover {
+    color:#122660;
+}
+
+.down-arrow-margin {
+  margin-bottom: 8%;
+}
+
+#modal-btn{
+    border-radius:0px;
+}
+
+.rankingsbg{
+     background-attachment: scroll;
+    background-image: url(../img/wall_street.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.white{
+    color:white;
+}
+
+.subMenu {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+.sticky {
+    top:0;
+    position:fixed;
+    
+}
+
+.navbar-space {
+    top: 790px;
+}
+
+#redbackground {
+    background-color:#cc0000;
+    border-radius:4px;
+}
+
+.bettercolor {
+    color: #FFA500;
+}
+
+.goodgreen {
+    color: #2a4cb2;
+}
+
+.goodred {
+    color: #19d3e8;
+}
+
+.navblue {
+    color:#122660;
+}
+
+.white-background {
+    background-color: #fff;
+    border-radius: 10px;
+    padding:10px;
+    padding-bottom:13px;
+}
+
+.competition b {
+    color: #2a4cb2;
+}
+
+#yellowbackground {
+    background-color:#122660;
+    border-radius:4px;
+    margin-right:2px;
+    border: 2px solid #FFA500;
+}
+
+
+
+
+
+
+
+
